@@ -4,18 +4,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pokédex</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div class="searchBar">
-            <label for="searchBar"></label>
-            <input type="text" id="searchBar" name="searchBar" placeholder="Pokémon Name">
-            <button type="submit">🔍</button>
+            <label id="searchBarLabel" for="searchBar">Search</label>
+            <input type="text" id="searchBar" name="searchBar" placeholder="Pokémon Name" autocomplete="off">
+            <button id="searchBTN" type="submit">🔍</button>
         </div>
 
-        <div class="itemCard">
-            <h1 id="PokémonName">Pokémon Name</h1>
-            <h2 id="PokémonType">Type</h2>
-            
+        <div class="entityCard">
+            <!-- <h1 id="PokemonName">Pokémon Name</h1>
+            <h2 id="PokemonType">Type</h2> -->
         </div>
     </body>
+
+    <script src="script.js"></script>
 </html>

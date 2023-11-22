@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Mono', monospace;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ececec;
+}
+
+.searchBar {
+    padding: 20px;
+}
+
+#searchBar {
+    padding: 10px;
+    border-radius: 30px;
+    background: #ececec;
+    box-shadow: inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+                inset 5px 5px 5px rgba(70, 70, 70, 0.12);
+    border-style: none;
+}
+
+#searchBarLabel {
+    font-weight: bolder;
+    font-size: large;
+}
+
+#searchBTN {
+    padding: 10px;
+    border-radius: 50%;
+    border-style: none;
+    box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.5),
+                10px 10px 10px rgba(70, 70, 70, 0.12);
+}
+
+.entityCard {
+    width: 500px;
+    height: 500px;
+    border-radius:50px;
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 50px;
+    background: #ececec;
+    box-shadow: inset -10px -10px 10px rgba(255, 255, 255, 0.5),
+        inset 10px 10px 10px rgba(70, 70, 70, 0.12);
+}
+
+
+
+
