@@ -17,7 +17,7 @@ function getPokemon(e) {
             `;
         })
         .catch((err) => {
-            console.log("Pokemon not fount", err);
+            alert("Pokemon not fount", err);
         })
 
         e.preventDefault();
